@@ -109,7 +109,7 @@ for kBlock = 1:ceil(L)
 
  
 end
-save 'result_decomp.mat' result_decomp;
+save 'result_OMPdecomp.mat' result_decomp;
 
 T = toc;
 %result_decomp = cell(1,Nblock)
